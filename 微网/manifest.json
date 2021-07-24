@@ -1,0 +1,15 @@
+{
+  "name": "赛诺",
+  "short_name": "赛诺",
+  "start_url": "/index.html",
+  "icons": [
+    {
+      "src": "static/img/index/1.png",
+      "sizes": "144×144",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "skyblue",
+  "theme_color": "yellow",
+  "display": "standalone"
+}
