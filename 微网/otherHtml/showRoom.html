@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>weiwang</title>
+    <link rel="stylesheet" href="../static/css/reset.css" />
+    <link rel="stylesheet" href="../static/css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../static/css/common.css" />
+    <link rel="stylesheet" href="../static/css/animate.min.css" />
+    <script src="../static/js/jquery-1.8.3.min.js"></script>
+  </head>
+
+  <body>
+    <div class="head">
+      <div class="row head-r">
+        <div class="left_a">
+          <a href="../index.html">
+            <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div class="title">云展厅</div>
+        <div class="">
+          <button type="button" class="control navbar-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- 右边栏 -->
+    <!-- <div class="animated bounceInRight" id="dowebok"> -->
+    <div class="" id="dowebok">
+      <div class="mask"></div>
+      <div class="menu animated fadeInRight">
+        <ul>
+          <li><a href="./welcome.html">欢迎辞</a></li>
+          <li><a href="./conInfo.html">大会信息</a></li>
+          <li><a href="./organization.html">组织架构</a></li>
+          <li><a href="./conSchedule.html">大会日程</a></li>
+          <li><a href="./conLive.html">会议直播</a></li>
+          <li><a href="./conGuest.html">大会嘉宾</a></li>
+          <li><a href="./showRoom.html">云展厅</a></li>
+          <li><a href="./materialDown.html">资料下载</a></li>
+          <li><a href="./contactUs.html">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 内容 -->
+    <div class="content">
+      <p class="main">内容待补充 敬请期待</p>
+    </div>
+  </body>
+  <script>
+    window.onload = function () {
+      $(".control").click(function () {
+        $("#dowebok").css("display", "block");
+      });
+      $(".mask").click(function () {
+        $("#dowebok").css("display", "none");
+      });
+    };
+  </script>
+</html>
